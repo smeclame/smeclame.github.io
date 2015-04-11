@@ -1,10 +1,16 @@
 body{
-	background-image: -ms-linear-gradient(top, #1AD6FD 0%, #1D62F0 100%);
-	background-image: -moz-linear-gradient(top, #1AD6FD 0%, #1D62F0 100%);
-	background-image: -o-linear-gradient(top, #1AD6FD 0%, #1D62F0 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1AD6FD), color-stop(1, #1D62F0));
-	background-image: -webkit-linear-gradient(top, #1AD6FD 0%, #1D62F0 100%);
-	background-image: linear-gradient(to bottom, #1AD6FD 0%, #1D62F0 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #1AD7FD),
+	color-stop(1, #1D63F0)
+);
+background-image: -o-linear-gradient(bottom, #1AD7FD 0%, #1D63F0 100%);
+background-image: -moz-linear-gradient(bottom, #1AD7FD 0%, #1D63F0 100%);
+background-image: -webkit-linear-gradient(bottom, #1AD7FD 0%, #1D63F0 100%);
+background-image: -ms-linear-gradient(bottom, #1AD7FD 0%, #1D63F0 100%);
+background-image: linear-gradient(to bottom, #1AD7FD 0%, #1D63F0 100%);
 }
 .pattern {
     opacity: 0.5;
@@ -56,7 +62,7 @@ section h2{
   text-align:center;
   padding-top:50px;
   color:#fff;
-  opacity: 0.85;
+  opacity: 0.95;
 }
 
 
