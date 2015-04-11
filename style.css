@@ -41,6 +41,7 @@ footer {
 }
 footer a, footer img {
   text-decoration: none;
+  color:white;
 }
 footer p {
   font-size: 17px;
